@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+     "default_icon": "icons/icon32.png",
+      "default_popup": "popup/YoutubeHandler.html",
+      "default_title": "A Minimalistic Approach"
+   },
+   "description": "A extension that helps you to handle youtube from another tabs.",
+   "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk8nb0GsnoCvCENCZHUmOcMAmxPrXOt2I+C58PuC2zA5aeCRf9H5QAdZN7hAnLiegiL9PVSSty3zq4disSovb6xURshu4NkaNnjK0M22Qnm4M/OLshfmBGn/82eLqpelJdsUBhFszZQKDaBfJ/NPPNhdWONGwciOdmuiQeYkBrHQxn9H126Iv+YT38MQ76qKrZkqfv9hkzRWwqmg5X97UWAB14Y+pzeSe+VM1Mf77IqM/qQr9urlbDyUYCaSjLghxO4NHoBeyX18kRdKRj5tOU9qsNQBy6u+TOeOIQ0ftyTymsYKBeKgpqvdIhoN1o2jxjjIvSDP4hy14bcypaphLTQIDAQAB",
+   "manifest_version": 2,
+   "name": "Youtube Handler",
+   "permissions": [ "*://*.youtube.com/*", "tabs" ],
+   "version": "1.0"
+}

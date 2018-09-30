@@ -1,0 +1,43 @@
+<html>
+<head>
+
+
+	<style>
+	.btn-group button {
+	background-color: white; /* White background */
+	/* border: 1px solid black; /* black border */ */
+	/* color: white; /* White text */ */
+	 padding: 2px 2px; /* Some padding */ */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+}
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: grey;
+}
+
+.btn-group button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+}
+	</style>
+</head>
+<br>
+<body style="width:150px; height:20px">
+<img style="width:150px; height:30px" src="header1.png"/>
+<div class= 'btn-group' style="width:100%">
+<button style="width:25%"><img  src="next-button-icon.png" id = "nextsong" class="beast" width='20' height='20'/></button>
+<button style="width:25%"><img src="play-button-icon.png" id = "switchplay" class="beast" width='20' height='20'/></button>
+<button style="width:25%"><img src="replay-button-icon.png" id = "replay" class="beast" width='20' height='20'/></button>
+<button style="width:25%"><img src="mute-button-icon.png" id = "mute" class="beast" width='20' height='20'/></button>
+</div>
+
+<script src="youtube.js"></script>
+
+</body>
+</html>
