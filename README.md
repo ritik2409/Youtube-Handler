@@ -9,9 +9,9 @@ to previous or next song or to mute the video.
 
 ### How to add?
 
--Download this zipped file.
--Now go to extension settings in chrome and switch on the developer mode.
--Now load unpacked extension by selecting the unzipped downloaded file.
+- Download this zipped file.
+- Now go to extension settings in chrome and switch on the developer mode.
+- Now load unpacked extension by selecting the unzipped downloaded file.
 
 ### Screenshots
 
